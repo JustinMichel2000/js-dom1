@@ -67,27 +67,26 @@
 
 
 
-let timeInput = document.getElementById("hours");
+// let timeInput = document.getElementById("hours");
 
-let resultatDiv = document.getElementById("result");
+// let resultatDiv = document.getElementById("result");
 
-        timeInput.addEventListener("keyup", displayTime);
+//         timeInput.addEventListener("keyup", displayTime);
 
-        function displayTime() {
+//         function displayTime() {
 
-            let time = parseFloat(timeInput.value); 
+//             let time = parseFloat(timeInput.value); 
 
-            if (time > 0) { 
-                let today = new Date();
-                today.setHours(today.getHours() + time);
+//             if (time > 0) { 
+//                 let today = new Date();
+//                 today.setHours(today.getHours() + time);
 
-                resultatDiv.innerHTML= "Date with hours added : " + today;
+//                 resultatDiv.innerHTML= "Date with hours added : " + today;
         
-        }
+//         }
 
-    }
+//     }
 
-    
 
 
 
