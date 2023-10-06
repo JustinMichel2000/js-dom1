@@ -30,15 +30,21 @@
 
 const buttonClick = document.getElementById("button");
 const inputName = document.getElementById("submitName");
-let inputNameValue = inputName.value;
 
 
 buttonClick.addEventListener("click", () => {
+    let inputNameValue = inputName.value;
 const fetchName = (inputNameValue) => fetch("https://api.agify.io/?name=" + inputNameValue)
 fetchName(inputNameValue)
 	.then((response) => response.json())
 	.then((json) => {
-		console.log(json.inputNameValue);
+		console.log(json.age);
+		console.log(json.count);
+
+    const div = document.createElement("div");
+    div.textContent = json.name + " : " + " age : " + json.age + "," + " count :" + json.count + "," ;
+
+    document.body.appendChild(div);
 		
 	})
 	.catch((error) => {
