@@ -5,8 +5,8 @@ This is just a bunch of simple exercises.
 
 ### Built With  
 
-* [![JS]][JS-url]
+* [![JSDom]][JSDom-url]
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[JS]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-[Js-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[JSDom]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[JsDom-url]: https://www.w3schools.com/js/js_htmldom.asp
